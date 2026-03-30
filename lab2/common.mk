@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -std=c++17 -O2 -Wall -Wextra -pthread
 LDFLAGS = -lpthread
 
-GTEST_DIR = $(TOP)/googletest
+GTEST_DIR = $(TOP)/../googletest
 GTEST_INCLUDES = -I$(GTEST_DIR)/include -I$(GTEST_DIR)
 
 # Rule for the core gtest logic
