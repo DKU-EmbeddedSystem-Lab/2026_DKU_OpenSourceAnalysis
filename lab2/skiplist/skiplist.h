@@ -11,7 +11,7 @@
 
 class SkipList {
 public:
-  struct RangeEntry {
+  struct RangeEntry { // memdb에서 range scan을 할때 필요할 수도 있는 구조체
     int key;
     std::string value;
     bool tombstone;
@@ -26,18 +26,18 @@ public:
   void Put(int key, const std::string& value);
   bool Get(int key, std::string* out_value) const;
   bool Delete(int key);
-  std::vector<std::pair<int, std::string>> RangeScan(int start_key,
-                                                     int end_key) const;
-  std::vector<RangeEntry> RangeScanLatest(int start_key, int end_key) const;
-
+  std::vector<std::pair<int, std::string>>
+  RangeScan(int start_key,
+            int end_key) const; // skiplist 내부 range scan와 memdb range
+                                // scan의 차이를 고려하여 설계
 private:
   struct Node {
     int key;
-    int64_t seq;
+    int64_t seq; // sequence number
     std::string value;
     bool tombstone;
     Node* next;
-    Node* down;
+    Node* down; // 필요시 추가 노드 포인터 선언하여 사용 가능
   };
 
   int RandomLevel();

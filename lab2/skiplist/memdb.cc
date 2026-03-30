@@ -15,6 +15,7 @@ InMemoryDB::InMemoryDB(const MemDBOptions& options)
     : options_(options), mutable_(std::make_unique<MemTable>(options_)) {}
 
 // Put operation 구현
+// sequence number 구현 필요
 void InMemoryDB::Put(int key, const std::string& value) {
   // code
 }

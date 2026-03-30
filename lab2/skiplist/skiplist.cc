@@ -24,6 +24,7 @@ int SkipList::RandomLevel() {
 }
 
 // SkipList에 새로운 key 및 value를 삽입하는 Put 함수
+// sequence number 필요
 void SkipList::Put(int key, const std::string& value) {
   // code
 }
