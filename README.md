@@ -21,7 +21,7 @@ If you want to proceed to Lab2 skip list, go to command below :
     ./memdb_test
 
 ## Lab2: B+Tree
-If you want to proceed to Lab2 skip list, go to command below :
+If you want to proceed to Lab2 B+Tree, go to command below :
 
     cd 2026_DKU_OpenSourceAnalysis/lab2/bptree
 
