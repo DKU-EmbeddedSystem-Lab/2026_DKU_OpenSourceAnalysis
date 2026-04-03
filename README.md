@@ -9,7 +9,7 @@ This is a place for studying Open Source Software Analysus (BigData) in Dankook 
 Please install following packages via these commands:
 
     sudo apt update
-    sudp apt install g++ gcc make
+    sudo apt install g++ gcc make
 
 
 ## Clone Git Repository
