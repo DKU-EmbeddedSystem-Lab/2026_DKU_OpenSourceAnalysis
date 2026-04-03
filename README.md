@@ -4,12 +4,20 @@ This is a place for studying Open Source Software Analysus (BigData) in Dankook 
 - Professor : Hojin Shin
 - Assistant : Yongmin Lee (Email : ym.lee@dankook.ac.kr)
 
+## Package Dependency
+
+Please install following packages via these commands:
+
+    sudo apt update
+    sudp apt install g++ gcc make
+
+
 ## Clone Git Repository
     git clone https://github.com/DKU-EmbeddedSystem-Lab/2026_DKU_OpenSourceAnalysis.git
 
 If you get an error there are no commands, install git with following command :
 
-    sudo apt-get install git
+    sudo apt install git
 
 ## Lab2: Skip list
 If you want to proceed to Lab2 skip list, go to command below :
