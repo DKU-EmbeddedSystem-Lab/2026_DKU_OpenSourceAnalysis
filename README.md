@@ -1,6 +1,6 @@
 # 2026_DKU_OpenSourceAnalysis 
 
-This is a place for studying Open Source Software Analysus (BigData) in Dankook University.
+This is a place for studying Open Source Software Analysis (BigData) in Dankook University.
 - Professor : Hojin Shin
 - Assistant : Yongmin Lee (Email : ym.lee@dankook.ac.kr)
 
@@ -9,15 +9,11 @@ This is a place for studying Open Source Software Analysus (BigData) in Dankook 
 Please install following packages via these commands:
 
     sudo apt update
-    sudo apt install g++ gcc make
+    sudo apt install g++ gcc make git
 
 
 ## Clone Git Repository
     git clone https://github.com/DKU-EmbeddedSystem-Lab/2026_DKU_OpenSourceAnalysis.git
-
-If you get an error there are no commands, install git with following command :
-
-    sudo apt install git
 
 ## Lab2: Skip list
 If you want to proceed to Lab2 skip list, go to command below :
