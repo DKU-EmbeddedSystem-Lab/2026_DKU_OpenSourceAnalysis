@@ -32,3 +32,12 @@ If you want to proceed to Lab2 B+Tree, go to command below :
     make
 
     ./memdb_test
+
+## Lab3: FileDB
+If you want to proceed to Lab3 FileDB, go to command below :
+
+    cd 2026_DKU_OpenSourceAnalysis/lab3
+
+    make
+
+    ./db_test
